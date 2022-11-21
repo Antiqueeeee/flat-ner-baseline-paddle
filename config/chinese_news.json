@@ -1,0 +1,12 @@
+{
+  "loss_type":"ce",
+  "dataset": "参照组",
+  "batch_size": 4,
+  "epochs": 10,
+  "bert_hid_size": 768,
+  "bert_learning_rate": 5e-5,
+  "learning_rate": 1e-3,
+  "weight_decay": 0.0,
+  "conv_hid_size": 96,
+  "dilation": [1,2,3,4]
+}

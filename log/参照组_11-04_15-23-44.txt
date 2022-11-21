@@ -1,0 +1,39 @@
+2022-11-04 15:23:44 - INFO: dict_items([('loss_type', 'ce'), ('dataset', '参照组'), ('conv_hid_size', 96), ('bert_hid_size', 768), ('dilation', [1, 2, 3, 4]), ('epochs', 1), ('batch_size', 2), ('learning_rate', 0.001), ('bert_learning_rate', 5e-05), ('weight_decay', 0), ('config', './config/chinese_news.json'), ('save_path', './outputs'), ('bert_name', 'E:\\MyPython\\Pre-train-Model\\mc-bert-base'), ('device', 'cuda')])
+2022-11-04 15:23:44 - INFO: 
++--------+-----------+----------+
+| 参照组 | sentences | entities |
++--------+-----------+----------+
+| train  |   11156   |  30348   |
+|  dev   |    306    |   854    |
++--------+-----------+----------+
+2022-11-04 15:24:01 - INFO: Building Model
+2022-11-04 15:24:14 - INFO: Epoch: 0
+2022-11-04 15:30:46 - INFO: 
++---------+--------+--------+-----------+--------+
+| Train 0 |  Loss  |   F1   | Precision | Recall |
++---------+--------+--------+-----------+--------+
+|  Label  | 0.0846 | 0.7808 |   0.9745  | 0.8144 |
++---------+--------+--------+-----------+--------+
+2022-11-04 20:46:20 - INFO: dict_items([('loss_type', 'ce'), ('dataset', '参照组'), ('conv_hid_size', 96), ('bert_hid_size', 768), ('dilation', [1, 2, 3, 4]), ('epochs', 1), ('batch_size', 2), ('learning_rate', 0.001), ('bert_learning_rate', 5e-05), ('weight_decay', 0), ('config', './config/chinese_news.json'), ('save_path', './outputs'), ('bert_name', 'E:\\MyPython\\Pre-train-Model\\mc-bert-base'), ('device', 'cuda')])
+2022-11-04 20:46:21 - INFO: 
++--------+-----------+----------+
+| 参照组 | sentences | entities |
++--------+-----------+----------+
+| train  |   11156   |  30348   |
+|  dev   |    306    |   854    |
++--------+-----------+----------+
+2022-11-04 20:46:38 - INFO: Building Model
+2022-11-04 20:46:44 - INFO: Epoch: 0
+2022-11-04 20:53:11 - INFO: 
++---------+--------+--------+-----------+--------+
+| Train 0 |  Loss  |   F1   | Precision | Recall |
++---------+--------+--------+-----------+--------+
+|  Label  | 0.0865 | 0.7789 |   0.9742  | 0.8142 |
++---------+--------+--------+-----------+--------+
+2022-11-04 20:53:14 - INFO: 
++-------+--------+-----------+--------+
+| Dev 0 |   F1   | Precision | Recall |
++-------+--------+-----------+--------+
+| Label | 0.8415 |   0.9815  | 0.8548 |
++-------+--------+-----------+--------+
+2022-11-04 20:53:15 - INFO: Best DEV F1: 0.8415

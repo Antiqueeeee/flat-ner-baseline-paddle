@@ -1,0 +1,8 @@
+2022-11-09 14:39:49 - INFO: dict_items([('loss_type', 'ce'), ('dataset', '参照组'), ('conv_hid_size', 96), ('bert_hid_size', 768), ('dilation', [1, 2, 3, 4]), ('epochs', 1), ('batch_size', 2), ('learning_rate', 0.001), ('bert_learning_rate', 5e-05), ('weight_decay', 0), ('config', './config/chinese_news.json'), ('save_path', './outputs'), ('bert_name', 'bert-base-chinese'), ('device', 'cuda')])
+2022-11-09 14:39:49 - INFO: 
++--------+-----------+----------+
+| 参照组 | sentences | entities |
++--------+-----------+----------+
+| train  |   11156   |  30348   |
+|  dev   |    306    |   854    |
++--------+-----------+----------+

@@ -1,0 +1,22 @@
+2022-11-21 11:19:25 - INFO: dict_items([('loss_type', 'ce'), ('dataset', '参照组'), ('conv_hid_size', 96), ('bert_hid_size', 768), ('dilation', [1, 2, 3, 4]), ('epochs', 10), ('batch_size', 4), ('learning_rate', 0.001), ('bert_learning_rate', 5e-05), ('weight_decay', 0.0), ('config', './config/chinese_news.json'), ('save_path', './outputs'), ('bert_name', 'bert-base-chinese'), ('device', 'gpu')])
+2022-11-21 11:19:25 - INFO: 
++--------+-----------+----------+
+| 参照组 | sentences | entities |
++--------+-----------+----------+
+| train  |   11156   |  30348   |
+|  dev   |    306    |   854    |
++--------+-----------+----------+
+2022-11-21 11:19:40 - INFO: Building Model
+2022-11-21 11:19:45 - INFO: Epoch: 0
+2022-11-21 11:23:41 - INFO: 
++---------+--------+
+| Train 0 |  Loss  |
++---------+--------+
+| Metrics | 0.1396 |
++---------+--------+
+2022-11-21 11:23:44 - INFO: 
++---------+--------+-----------+--------+
+|  Dev 0  |   F1   | Precision | Recall |
++---------+--------+-----------+--------+
+| Metrics | 0.9655 |   0.9927  | 0.9655 |
++---------+--------+-----------+--------+
